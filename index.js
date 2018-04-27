@@ -18,7 +18,7 @@ var cors = require("cors");
 const corsOptions = {
   origin: "*",
 };
-App.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
 console.log(config.dev_url);
 // Mongoose connection with mongodb
